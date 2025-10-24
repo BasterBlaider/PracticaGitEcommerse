@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +14,96 @@
 </head>
 <body>
 <header></header>
-<main></main>
+<main>
+          <section class="registro my-5">
+            <div class="container d-flex justify-content-center">
+              <div class="w-50">
+                <form>
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInputName"
+                      placeholder="Nombre y Apellido"
+                      required
+                      minlength="3"
+                      maxlength="15"
+                    />
+                    <label for="floatingInputName">Nombre y Apellido</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingUserName"
+                      placeholder="Nombre de usuario"
+                      required
+                      minlength="5"
+                      maxlength="10"
+                    />
+                    <label for="floatingUserName">Nombre de usuario</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingEmail"
+                      placeholder="Email"
+                      required
+                    />
+                    <label for="floatingEmail">Email</label>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="Fecha" class="form-label"
+                      >Fecha de nacimiento</label
+                    >
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="Fecha"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="floatingPassword"
+                      placeholder="Contraseña"
+                      required
+                    />
+                    <label for="floatingPassword">Contraseña</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="floatingConfirmPassword"
+                      placeholder="Confirmar Contraseña"
+                      required
+                    />
+                    <label for="floatingConfirmPassword"
+                      >Confirmar Contraseña</label
+                    >
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <button
+                      type="submit"
+                      class="btn btn-primary flex-fill me-2 fw-bold py-2"
+                    >
+                      REGISTRAR
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
 <footer></footer>
 
 
