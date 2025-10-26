@@ -21,7 +21,53 @@
   </head>
 
   <body>
-    
+    <main>
+            <div
+              class="d-flex justify-content-center align-items-center vh-100"
+            >
+              <div class="w-25">
+                <form>
+                  <h2 class="text-center mb-4">Iniciar sesión</h2>
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      placeholder="rockea@gmail.com"
+                      required
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Introduce tu contraseña"
+                      required
+                      minlength="8"
+                    />
+                    <div class="form-text">
+                      La contraseña debe tener mínimo 8 caracteres.
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary w-100">
+                    Ingresar
+                  </button>
+                </form>
+              </div>
+            </div>
+          </main>
     
     
   </body>
